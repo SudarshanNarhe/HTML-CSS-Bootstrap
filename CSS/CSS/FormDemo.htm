@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studentform</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="CssDemo.css">
+    <style>
+        /* Internal CSS */
+        h2{
+            color: tomato;
+            background-color: black;
+            margin-right: 1000px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <form >
+        <h2 >Personal Information</h2>
+        <!-- <p id="id1button">Testing111</p>
+        <p id="id1button">Testing222</p> -->
+        <P><b>This is the Student <span style="font-style:italic;">Information </span>Form :  </b></P>
+        <!-- inline CSS -->
+        <label style="color: rgb(12, 7, 18);">Full Name : </label>
+        <input type="text" name="first" placeholder="Enter your Full Name ">
+        <br><br>
+        <label>E-mail : </label>
+        <input type="text" name="mail" placeholder="xyz@mail.com">
+        <br><br>
+        <label>Roll No : </label>
+        <input type="number" name="rollno" min="1" max="30">
+        <br><br>
+        <label>Gender : </label>
+        <input type="radio" name="Gender">Male
+        <input type="radio" name="Gender">Female
+        <br><br>
+        <label>Date : </label>
+        <input type="date" name="date">
+        <br><br>
+        <label>Batch: </label>
+        <input type="radio" name="batch">Dp7
+        <input type="radio" name="batch">Dp8
+        <input type="radio" name="batch">Dp9
+        <input type="radio" name="batch">Dp10
+        <br><br>
+        <label >Subject : </label>
+        <input type="checkbox" >Java
+        <input type="checkbox">Angular
+        <input type="checkbox">SQL
+        <input type="checkbox">Dot Net
+        <br><br>
+        <button type="submit" id="id1button" onclick="alert('Submit Successful')">Submit</button>
+        <button type="reset" id="id1button">Reset</button>
+
+    </form>
+
+</body>
+</html>

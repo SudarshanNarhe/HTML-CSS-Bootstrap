@@ -1,0 +1,36 @@
+
+.button{
+   margin: 10px; 
+   color: black;
+}
+table{
+   
+    border: 2px solid;
+    padding: 10px;
+    text-align: center;
+    border-collapse: collapse;
+    width: 25%;
+    height: 50%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://img.freepik.com/premium-vector/geometric-gradient-technology-background_23-2149110132.jpg?size=626&ext=jpg&ga=GA1.1.632798143.1705363200&semt=ais");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+th{
+    font-size: xx-large;
+    color: rgb(239, 240, 238);
+
+}
+td{
+    font-size: large;
+    color: rgb(239, 240, 238);
+}
+

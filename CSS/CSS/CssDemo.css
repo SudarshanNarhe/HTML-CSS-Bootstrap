@@ -1,0 +1,25 @@
+
+#id1button{
+    margin: 15px;
+    background-color: blue;
+    color:white;
+    
+}
+
+#id2forform{
+   text-align: center;
+   margin-top: 4%;
+   margin-left: 25%;
+   width: 50%;
+    background-color: wheat;
+}
+.roundButton{
+    border-radius: 50px;
+    padding: 10px, 20px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 10px;
+    cursor: pointer;
+}
+
+
